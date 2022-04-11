@@ -3,7 +3,8 @@ Pathetic OpenGL
 Pyramids : 
 ![](images/miiky.png)
 
-![](images/OpenGL Lab 3_26_2022 10_52_55 AM.png)
+
+![](images/OpenGL%20Lab%203_26_2022 10_52_55%20AM.png)
 
 
 
