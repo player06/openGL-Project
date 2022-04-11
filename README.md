@@ -4,7 +4,7 @@ Pyramids :
 ![](images/miiky.png)
 
 
-![](images/OpenGL%20Lab%203_26_2022 10_52_55%20AM.png)
+![](images/OpenGLLab3_26_2022 10_52_55AM.png)
 
 
 
