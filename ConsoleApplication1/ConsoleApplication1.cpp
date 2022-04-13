@@ -27,7 +27,7 @@ void InitGraphics(int argc, char* argv[]) {
 	glutDisplayFunc(OnDisplay);
 	glutMainLoop();
 	glutIdleFunc(OnDisplay);
-	glutKeyboardFunc(onKeyPress);
+	//glutKeyboardFunc(onKeyPress);
 }
 
 void SetTransformations() {
@@ -39,7 +39,7 @@ void SetTransformations() {
 void Draw(int value, float x, float y, float z) {
 	glRasterPos3f(x, y, z);
 	string s = to_string(value);
-	for (int i = 0; i < s.length; i++){
+	for (int i = 0; i < s.length(); i++){
 		glutBitmapCharacter(GLUT_BITMAP_TIMES_ROMAN_10, s.at(i));
 	}
 }
