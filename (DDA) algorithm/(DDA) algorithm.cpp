@@ -19,9 +19,9 @@ void init(void)
     glMatrixMode(GL_PROJECTION);
     gluOrtho2D(0.0, 300.0, 0.0, 300.0);
 }
-void setPixel(int xCoordinate, int yCoordinate){
+void setPixel(int x, int y){
     glBegin(GL_POINTS);
-    glVertex2i(xCoordinate, yCoordinate);
+    glVertex2i(x, y);
     glEnd();
     glFlush();
 }
@@ -45,26 +45,12 @@ void lineDDA(int x0, int y0, int xEnd, int yEnd)
         setPixel(Round(x), Round(y));
     }
 }
-void drawMyLine(void)
+void draw(void)
 {
     glClear(GL_COLOR_BUFFER_BIT);
-    glColor3f(1.0, 0.0, 0.0);
-    glPointSize(4.0);
-    int x;
-    int y;
-    int xEnd;
-    int yEnd;
-    cout << "starting vertix" << endl;
-    cout << "x: " << endl;
-    cin >> x;
-    cout << "y0: " << endl;
-    cin >> y;
-    cout << "ending vertix" << endl;
-    cout << "x: " << endl;
-    cin >> xEnd;
-    cout << "y: " << endl;
-    cin >> yEnd;
-    lineDDA(x, y, xEnd, yEnd);
+    glColor3f(1.0, 0.0, 1.0);
+    glPointSize(10.0);
+    lineDDA(10, 60, 133, 220);
 }
 void main(int argc, char** argv)
 {
@@ -74,6 +60,6 @@ void main(int argc, char** argv)
     glutInitWindowPosition(0, 0);
     glutCreateWindow("(DDA) Algorithm");
     init();
-    glutDisplayFunc(drawMyLine);
+    glutDisplayFunc(draw);
     glutMainLoop();
 }
