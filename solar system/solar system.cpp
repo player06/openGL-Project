@@ -52,8 +52,7 @@ void OnDisplay() {
 	SetTransformations();
 
 	//The Sun (Yellow)
-
-	glTranslatef(10,10,0);
+	glTranslatef(15,15,0);
 	glRotatef(sunAngle, 0, 0, 1);
 	glBegin(GL_QUADS);
 	glColor3f(1, 1, 0);
@@ -65,8 +64,7 @@ void OnDisplay() {
 
 	//The Earth (Blue)
 	glRotatef(earthAngle, 0, 0, 1);
-	glTranslatef(35, 35, 0);
-	
+	glTranslatef(40, 40, 0);
 	glBegin(GL_QUADS);
 	glColor3f(0, 0, 1);
 	glVertex3f(5, 5, 0);
@@ -77,7 +75,7 @@ void OnDisplay() {
 
 	//The Moon (white)
 	glRotatef(moonAngle, 0, 0, 1);
-	glTranslatef(14, 14, 0);
+	glTranslatef(20, 20, 0);
 	glBegin(GL_QUADS);
 	glColor3f(1, 1, 1);
 	glVertex3f(2.5, 2.5, 0);

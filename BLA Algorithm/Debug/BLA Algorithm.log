@@ -1,0 +1,3 @@
+﻿  BLA Algorithm.cpp
+C:\Users\Mohab Khaled\source\repos\openGL-Project\BLA Algorithm\BLA Algorithm.cpp(44,33): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  BLA Algorithm.vcxproj -> C:\Users\Mohab Khaled\source\repos\openGL-Project\BLA Algorithm\Debug\BLA Algorithm.exe
