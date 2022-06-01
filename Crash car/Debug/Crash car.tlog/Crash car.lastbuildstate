@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 PlatformToolSet=v142:VCToolArchitecture=Native32Bit:VCToolsVersion=14.28.29910:VCServicingVersionCompilers=14.28.29915:TargetPlatformVersion=10.0.19041.0:
 Debug|Win32|C:\Users\Mohab Khaled\source\repos\Crash car\|
+=======
+PlatformToolSet=v142:VCToolArchitecture=Native32Bit:VCToolsVersion=14.28.29910:VCServicingVersionCompilers=14.28.29915:TargetPlatformVersion=10.0.19041.0:
+Debug|Win32|C:\Users\Mohab Khaled\source\repos\Crash car\|
+>>>>>>> 3691c551fabde1c501f6b1e4a196be0cab4d8eea
