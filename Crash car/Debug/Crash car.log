@@ -1,0 +1,14 @@
+﻿  Crash car.cpp
+C:\Users\Mohab Khaled\source\repos\Crash car\power_up.h(82,1): warning C4554: '|': check operator precedence for possible error; use parentheses to clarify precedence
+C:\Users\Mohab Khaled\source\repos\Crash car\power_up.h(143,1): warning C4554: '|': check operator precedence for possible error; use parentheses to clarify precedence
+C:\Users\Mohab Khaled\source\repos\Crash car\Crash car.cpp(223,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Mohab Khaled\source\repos\Crash car\Crash car.cpp(260,31): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Mohab Khaled\source\repos\Crash car\Crash car.cpp(265,31): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Mohab Khaled\source\repos\Crash car\Crash car.cpp(271,31): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Mohab Khaled\source\repos\Crash car\Crash car.cpp(276,31): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Mohab Khaled\source\repos\Crash car\Crash car.cpp(391,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Mohab Khaled\source\repos\Crash car\Crash car.cpp(402,37): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
+C:\Users\Mohab Khaled\source\repos\Crash car\Crash car.cpp(459,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Mohab Khaled\source\repos\Crash car\Crash car.cpp(467,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Mohab Khaled\source\repos\Crash car\Crash car.cpp(474,23): warning C4018: '<': signed/unsigned mismatch
+  Crash car.vcxproj -> C:\Users\Mohab Khaled\source\repos\Crash car\Debug\Crash car.exe
